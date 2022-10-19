@@ -2,7 +2,12 @@ main{
     padding: 57px 50px;
     color: white;
     max-width: 650px;
-    margin: 40px 180px;
+    margin: 40px 250px;
+   
+    background-image: url('./images/react-icon-large.png');
+    background-position-x: right;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
   }
   .Title{
       margin-top:0px;
@@ -22,3 +27,9 @@ main{
       font-size: 20px;
       padding-block: 10px;
   }
+
+  li::marker{
+    color: #61DAFB;
+    font-size: 1.8rem;
+  }
+

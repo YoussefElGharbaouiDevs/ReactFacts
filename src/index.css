@@ -12,3 +12,8 @@ code {
     monospace;
 }
 
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+}
